@@ -1,5 +1,6 @@
 var map = new ol.Map({
     controls: [mousePositionControl, new ol.control.Zoom()],
+    interactions: [translateInteraction],
     target: 'map',
     layers: [
       new ol.layer.Tile({

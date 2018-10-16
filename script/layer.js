@@ -16,7 +16,6 @@ for (let i = 0; i < 100; i++) {
 
 function stylefunction(feature) {
     if (feature.get('features') != null) {
-        console.log(feature);
         return new ol.style.Style({
             image: new ol.style.Circle({
                 radius: 10,
